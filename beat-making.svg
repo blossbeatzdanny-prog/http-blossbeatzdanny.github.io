@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="drumGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff6b6b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ee5a24;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="url(#bgGrad)"/>
+  
+  <!-- Drum Machine -->
+  <rect x="50" y="80" width="300" height="140" rx="15" fill="#2c3e50" stroke="#34495e" stroke-width="2"/>
+  
+  <!-- Screen -->
+  <rect x="70" y="100" width="120" height="40" rx="5" fill="#000" stroke="#555" stroke-width="1"/>
+  <text x="130" y="125" text-anchor="middle" fill="#00ff00" font-family="monospace" font-size="14">BEAT</text>
+  
+  <!-- Pads -->
+  <rect x="210" y="100" width="30" height="30" rx="3" fill="url(#drumGrad)" stroke="#fff" stroke-width="1"/>
+  <rect x="250" y="100" width="30" height="30" rx="3" fill="url(#drumGrad)" stroke="#fff" stroke-width="1"/>
+  <rect x="290" y="100" width="30" height="30" rx="3" fill="url(#drumGrad)" stroke="#fff" stroke-width="1"/>
+  
+  <rect x="210" y="140" width="30" height="30" rx="3" fill="url(#drumGrad)" stroke="#fff" stroke-width="1"/>
+  <rect x="250" y="140" width="30" height="30" rx="3" fill="url(#drumGrad)" stroke="#fff" stroke-width="1"/>
+  <rect x="290" y="140" width="30" height="30" rx="3" fill="url(#drumGrad)" stroke="#fff" stroke-width="1"/>
+  
+  <rect x="210" y="180" width="30" height="30" rx="3" fill="url(#drumGrad)" stroke="#fff" stroke-width="1"/>
+  <rect x="250" y="180" width="30" height="30" rx="3" fill="url(#drumGrad)" stroke="#fff" stroke-width="1"/>
+  <rect x="290" y="180" width="30" height="30" rx="3" fill="url(#drumGrad)" stroke="#fff" stroke-width="1"/>
+  
+  <!-- Knobs -->
+  <circle cx="90" cy="170" r="12" fill="#34495e" stroke="#555" stroke-width="2"/>
+  <circle cx="120" cy="170" r="12" fill="#34495e" stroke="#555" stroke-width="2"/>
+  <circle cx="150" cy="170" r="12" fill="#34495e" stroke="#555" stroke-width="2"/>
+  
+  <!-- Knob indicators -->
+  <line x1="90" y1="165" x2="90" y2="158" stroke="#fff" stroke-width="2"/>
+  <line x1="120" y1="165" x2="120" y2="158" stroke="#fff" stroke-width="2"/>
+  <line x1="150" y1="165" x2="150" y2="158" stroke="#fff" stroke-width="2"/>
+  
+  <!-- Sound waves -->
+  <path d="M 30 50 Q 40 40 50 50 Q 60 60 70 50" stroke="#fff" stroke-width="2" fill="none" opacity="0.7"/>
+  <path d="M 330 50 Q 340 40 350 50 Q 360 60 370 50" stroke="#fff" stroke-width="2" fill="none" opacity="0.7"/>
+  
+  <!-- Title -->
+  <text x="200" y="40" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="24" font-weight="bold">BEAT MAKING</text>
+</svg>
